@@ -4,7 +4,11 @@
 name: "Chromatic"
 
 # Event for the workflow
-on: push
+# 👇 Workflow event to trigger execution
+on:
+  push:
+    branches-ignore:
+      - "main"
 
 # List of jobs
 jobs:
