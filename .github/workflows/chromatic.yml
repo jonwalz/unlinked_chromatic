@@ -6,7 +6,7 @@ name: "Chromatic"
 # Event for the workflow
 # 👇 Workflow event to trigger execution
 on:
-  pull-request:
+  push:
     branches-ignore:
       - "main"
 
